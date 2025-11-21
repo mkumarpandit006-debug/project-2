@@ -1,9 +1,37 @@
-<html>
-  <head>
-    <link hel="stylesheet"
-    <title>my first web page </title>
-    <body>
-       hy i am online now 
-    </body>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Divs Parallel</title>
+
+    <style>
+        .container {
+            display: flex; /* side by side */
+            gap: 20px;     /* space between boxes */
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box green"></div>
+        <div class="box red"></div>
+    </div>
+
+</body>
 </html>
