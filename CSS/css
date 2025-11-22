@@ -1,3 +1,25 @@
-h1{
-color:red;
+.firstDiv{
+  display: flex;
+  height:100%;
+}
+
+ .childDiv{
+   width:50%;
+   height:50%;
+   color:white;
+   background-color:red;
+   border: 5px solid black;
+ }
+.childDiv:nth-of-type(2){
+background-image: url("../webp.jpg");
+
+}
+
+@media (min-width:576px){
+  .firstDiv{
+    flex-direction:column;
+  }
+  .childDiv{
+    width:100%;
+  }
 }
