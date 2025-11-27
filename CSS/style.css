@@ -45,11 +45,11 @@ body {
   width:100%;
 }
 
-
 .navbar a{
   text-decoration:none;
   color:blue;
   font-size:18px;
+  font-weght:bold;
 }
 
 .mobilebar {
