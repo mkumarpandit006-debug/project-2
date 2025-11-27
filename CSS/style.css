@@ -34,6 +34,9 @@ body {
   display: flex;
 }
 
+.navbar {
+  width:100%;
+}
 .navbar ul {
   display: flex;
   text-decoration:none;
