@@ -32,21 +32,14 @@ body {
   background-color: aqua;
   text-color:white;
   display: flex;
-  justify-content:space-around;
-}
-
-.navbar {
 }
 
 .navbar ul {
   display: flex;
   text-decoration:none;
   list-style:none;
-  justify-content:center;
-  align-items:center;
-  padding:10px 0;
+  justify-content: space-between;
   width:100%;
-  space:between;
 }
 
 .navbar a{
