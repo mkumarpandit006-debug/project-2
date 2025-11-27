@@ -43,11 +43,17 @@ body {
   text-decoration:none;
   list-style:none;
   gap:40px;
+  justify-content:center;
+  algn-items:center;
+  list-style:none;
+  padding:10px 0;
   
 }
 
 .navbar a{
   text-decoration:none;
+  color:blue;
+  font-size:18px;
 }
 
 .mobilebar {
