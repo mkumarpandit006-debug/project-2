@@ -35,7 +35,7 @@ body {
 }
 
 .navbar {
-  width:100%;
+  width:75%;
 }
 .navbar ul {
   display: flex;
@@ -44,6 +44,7 @@ body {
   justify-content: space-between;
   width:100%;
 }
+
 
 .navbar a{
   text-decoration:none;
