@@ -35,7 +35,7 @@ body {
 }
 
 .navbar {
-  width:75%;
+  width:100%;
 }
 .navbar ul {
   display: flex;
