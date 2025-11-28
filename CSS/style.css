@@ -32,14 +32,14 @@ body {
   background-color: aqua;
   text-color:white;
   display: flex;
-  
+  align-items: center;
 }
 
 .navbar {
   width:100%;
 }
 .navbar ul {
-  display:;
+  display:flex;
   text-decoration:none;
   list-style:none;
   justify-content: space-around;
