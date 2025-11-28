@@ -19,7 +19,6 @@ body {
   height: 100%;
   display:flex;
   justify-content: center;
-  align-items: center;
   
 }
 
@@ -34,21 +33,17 @@ body {
   background-color: aqua;
   text-color:white;
   display: flex;
-  align-items:center;
   
 }
 
 .navbar {
   width:100%;
-  height:100%;
 }
 .navbar ul {
   display:;
   text-decoration:none;
   list-style:none;
   justify-content: space-around;
-  align-items: center;
-  height:100%
   gap:40px;
 }
 
@@ -56,8 +51,6 @@ body {
   text-decoration:none;
   color:blue;
   font-size:18px;
-  height: 100%;
-  align-items: center;
 }
 
 .mobilebar {
