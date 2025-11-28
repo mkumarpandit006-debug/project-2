@@ -11,6 +11,7 @@ body {
 .logo {
   width: 25%;
   background-color: black;
+  flex:1;
 }
 
 .logo a {
@@ -33,6 +34,7 @@ body {
   text-color:white;
   display: flex;
   align-items: center;
+  flex:2;
 }
 
 .navbar {
