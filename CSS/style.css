@@ -1,25 +1,25 @@
-* .{
+body {
   margin:0;
-  padding: 0;
 }
 
 .header {
-  height: 10%;
   width: 100%;
-  display: flex;
+  height: 10vh;
+  background-color: blue;
+  display:flex;
 }
 
 .logo {
-  background-color: green;
   width: 25%;
-  height: 10vh%;
+  background-color: black;
 }
 
 .logo a {
   width: 100%;
   height: 100%;
-  display: flex;
+  display:flex;
   justify-content: center;
+  
 }
 
 .logo a img {
@@ -29,34 +29,84 @@
 
 .menu {
   width: 75%;
-  height: 100%;
+  background-color: aqua;
+  text-color:white;
   display: flex;
-  gap: 20px;
-  background-color: yellow;
 }
 
-.menu .menubar {
-  width: 100%;
-  height: 100%;
-  
+.navbar {
+  width:100%;
 }
-
-.menu .menubar ul {
-  width: 100%;
-  height: 100%;
+.navbar ul {
   display: flex;
+  text-decoration:none;
+  list-style:none;
   justify-content: space-around;
-  align-items: center;
+  gap:40px;
 }
 
-.menu .menubar ul li {
-  list-style: none;
-  padding-bottom: 2.5%;
+.navbar a{
+  text-decoration:none;
+  color:blue;
+  font-size:18px;
 }
 
-.menu .menubar ul li a {
-  text-decoration: none;
-  color: green;
-  position: absolute;
-  font-size: 1.5vw;
+.mobilebar {
 }
+
+@media (max-width:576px) {
+  .header {
+    height: 7%;
+    background-color: red;
+  }
+}
+body {
+margin: 0;
+}
+
+.header {
+ width: 100%;
+  height: 10% ;
+  background-color: blue;
+  display:flex;
+  }
+.logo{
+  width: 25%;
+  background-color: green;
+}
+.logo a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo a img{
+  width: auto;
+   height: auto;
+ 
+}
+
+  .menu{
+   display:flex;
+   text-align:center;
+   padding:20px;
+   width:80%;
+   gap:20%;
+  
+   justify-content:space-bitween;
+  }
+.menu a {
+ color:white;
+ text-decoration:none;
+} 
+.mobile{
+}
+
+
+@media (max-width:576px){
+  .header {
+    height: 7%;
+    background-color: red;
+  }
+
