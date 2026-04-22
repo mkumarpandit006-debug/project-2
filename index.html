@@ -1,9 +1,29 @@
-<html>
-    <head>
-        <title> Library Management System</title>
-        <meta name="viewport" content="height=device-height,initial-scale=1.0">
-    </head>
-    <body  class="signInpage">
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header"></div>
+
+<h1>Library Management System</h1>
+
+<input type="text" id="bookInput" placeholder="Enter book name">
+<button onclick="addBook()">Add Book</button>
+
+<ul id="bookList"></ul>
+
+<script src="script.js"></script>
+<script>
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+</script>
+
+</body>
 </html>
