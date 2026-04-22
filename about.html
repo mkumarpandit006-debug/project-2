@@ -1,38 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<html>
-  <head>
-    <title>About</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  </head>
-  <body>
-    <div id="header">
-      
-    </div>
-    <script>
-      fetch("header.html")
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("header").innerHTML = data;
-        
-        let currentPage = window.location.pathname.split("/").pop();
-        // menu me anchor tak pahuchne ka tareeka
-        let links = document.querySelectorAll(".menu .menubar ul li a");
-        
-        // hr anchor tag ko process karenge
-        links.forEach(link => {
-          console.log("Current page:", currentPage);
-          //pehle  anchor tag ka href ki value save karenge
-          let linkPage = link.getAttribute("href");
-          console.log("Attribute Value: " , linkPage);
-          if(!linkPage) return;
-  
-          if (linkPage == currentPage) {
-            link.closest("li").classList.add("underline_current");
-          } 
-        });
-      
-      });
-    </script>
-  </body>
+<div id="header"></div>
+
+<h2>About Library</h2>
+<p>This is a simple Library Management System project.</p>
+
+<script>
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+</script>
+
+</body>
 </html>
